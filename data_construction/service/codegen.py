@@ -292,8 +292,8 @@ Stdout: {exec_detail}
     def _check_distinctiveness_node(self,state:CodegenState) -> Command[Literal["coder","codegen_evaluator"]]:
         """区分度校验"""
         print("进入check_distinctiveness节点")
-        # 如果开启了消融实验，直接进入evaluator FIXME
-        if "distinctiveness" in self.exclude_module or (state.get("iter_number") >= 1 and state.get("current_codegen_turn") >= 2 ):
+        # 如果开启了消融实验，直接进入evaluator
+        if "distinctiveness" in self.exclude_module:
             return Command(
                 goto="codegen_evaluator",
             )
@@ -338,9 +338,7 @@ Stdout: {exec_detail}
         print("进入evaluator节点")
 
         # 可选跳过这个节点
-        # FIXME TODO
-        if True:
-        # if "evaluator" in self.exclude_module:
+        if "evaluator" in self.exclude_module:
             current_codegen_turn = state.get("current_codegen_turn")
             # 1. 记录本轮次生成的数据
             turn_datas = state.get("turn_datas")
