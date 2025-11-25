@@ -2,12 +2,12 @@ import os
 from pathlib import Path
 from data_construction.data.data_manager import MTDataManager
 
-# 获取当前文件的目录
+# Get the directory of the current file
 current_dir = Path(__file__).parent
-# 获取dataset目录的路径（相对于当前文件的上级目录）
+# Get the path to the dataset directory (relative to the parent of the current file)
 dataset_dir = current_dir.parent / "dataset"
 
-# 四个数据集文件
+# Four dataset files
 dataset_files = [
     "java_function.jsonl",
     "java_repository.jsonl",
@@ -15,28 +15,28 @@ dataset_files = [
     "python_repository.jsonl"
 ]
 
-# 创建一个临时合并文件
+# Create a temporary merged file
 merged_file = current_dir / "merged_dataset.jsonl"
 
-# 合并所有数据集到一个文件
+# Merge all dataset files into one file
 with open(merged_file, 'w', encoding='utf-8') as outfile:
     for dataset_file in dataset_files:
         dataset_path = dataset_dir / dataset_file
-        print(f"正在读取: {dataset_path}")
+        print(f"Reading: {dataset_path}")
         with open(dataset_path, 'r', encoding='utf-8') as infile:
             for line in infile:
-                if line.strip():  # 跳过空行
+                if line.strip():  # Skip empty lines
                     outfile.write(line)
 
-print(f"已合并所有数据集到: {merged_file}")
+print(f"All datasets merged into: {merged_file}")
 
-# 初始化数据库
+# Initialize database
 manager = MTDataManager()
-print("正在初始化数据库...")
+print("Initializing database...")
 manager.setup_with_jsonl(merged_file)
-print(f"数据库初始化完成！共导入 {manager.count()} 条数据")
+print(f"Database initialized! Imported {manager.count()} records")
 
-# 清理临时文件
+# Remove temporary merged file
 if merged_file.exists():
     os.remove(merged_file)
-    print(f"已删除临时文件: {merged_file}")
+    print(f"Deleted temporary file: {merged_file}")
