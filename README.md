@@ -58,6 +58,11 @@ class PerTurnDataInstance:  # A minimal evaluation unit
 
 ## Inference
 
+For first-time users of this dataset, please run the following command to initialize the SQLite database:
+```bash
+PYTHONPATH=. python -m evaluation.setup_db
+```
+
 Please configure the parameters in `./script/run_inference.sh`, and then directly run this inference script:
 ```bash
 bash script/run_inference.sh
