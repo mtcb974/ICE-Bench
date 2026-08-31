@@ -1,0 +1,115 @@
+{
+  "cells": 40,
+  "summary": [
+    {
+      "model": "claude-sonnet-4-5",
+      "prompt_strategy": "ci",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 75,
+      "turn_accuracy": 0.4658385093167702,
+      "complete_tasks": 5,
+      "completion_rate": 0.125
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "prompt_strategy": "edit",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 75,
+      "turn_accuracy": 0.4658385093167702,
+      "complete_tasks": 6,
+      "completion_rate": 0.15
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "prompt_strategy": "edit",
+      "context": "golden",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 95,
+      "turn_accuracy": 0.5900621118012422,
+      "complete_tasks": 7,
+      "completion_rate": 0.175
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "prompt_strategy": "fh",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 78,
+      "turn_accuracy": 0.484472049689441,
+      "complete_tasks": 6,
+      "completion_rate": 0.15
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "prompt_strategy": "fh",
+      "context": "golden",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 97,
+      "turn_accuracy": 0.6024844720496895,
+      "complete_tasks": 6,
+      "completion_rate": 0.15
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "prompt_strategy": "ci",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 72,
+      "turn_accuracy": 0.4472049689440994,
+      "complete_tasks": 3,
+      "completion_rate": 0.075
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "prompt_strategy": "edit",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 71,
+      "turn_accuracy": 0.4409937888198758,
+      "complete_tasks": 3,
+      "completion_rate": 0.075
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "prompt_strategy": "edit",
+      "context": "golden",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 94,
+      "turn_accuracy": 0.5838509316770186,
+      "complete_tasks": 5,
+      "completion_rate": 0.125
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "prompt_strategy": "fh",
+      "context": "base",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 71,
+      "turn_accuracy": 0.4409937888198758,
+      "complete_tasks": 3,
+      "completion_rate": 0.075
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "prompt_strategy": "fh",
+      "context": "golden",
+      "tasks": 40,
+      "turns": 161,
+      "correct_turns": 84,
+      "turn_accuracy": 0.5217391304347826,
+      "complete_tasks": 5,
+      "completion_rate": 0.125
+    }
+  ]
+}

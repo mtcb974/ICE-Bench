@@ -4,6 +4,8 @@
 
 ICE-Bench is a benchmark specifically designed to assess LLMs for Iterative Code gEneration under progressive requirement refinement scenarios.
 
+This repository contains the data-construction pipeline, the benchmark dataset, the evaluation toolchain, and the experimental results. The released result tracks are described in the [Results](#results) section below.
+
 ## Setup
 
 Ensure that [uv](https://github.com/astral-sh/uv/releases/tag/0.8.11) is installed. Then run the following command to set up the environment.
@@ -15,7 +17,7 @@ uv sync
 source .venv/bin/activate
 ```
 
-Set up api key in `.env` file: 
+Set up api key in `.env` file:
 ```bash
 mv .env.example .env
 ```
@@ -154,14 +156,47 @@ Other params:
 - `--skip_evaluator`: option for rq3
 - `--skip_evaluator_and_distinctiveness`: option for rq3
 
-## User Study
+## Results
 
-To further investigate how well our multi-turn requirements capture the evolving nature of software specifications in real-world iterative development, we conducted a user study. 
+This directory contains the released experimental results, numbered in the order of the corresponding Discussion subsections. Each track keeps the data needed to inspect the reported result.
 
-The annotion guideline is in `user_study/annotation_guidelines.md` and the results are as follow:
+### Main Experiment
 
-<img src="./user_study/tab_user_study.png" alt="tab_user_study" width="600"/>
+`results/main_experiment/` contains the full model predictions, execution outputs, and per-cell metrics for every evaluation run of the main study and the RQ3 ablation study. `trajectories/` holds all 136 paper cells of RQ1 and RQ2 (Basic and Golden contexts, Full History / Code Edit / Cumulative Instruction prompting) as trajectory files, each recording the prompt, the generated solution, the execution status, and the execution detail for every turn, with the matching per-cell metric file alongside. `rq3/` holds the 16 ablation cells (wo Evaluator and wo Distinctiveness Validation & Evaluator) with the trajectory, evaluation, and metric files per cell.
 
+### 1. Commercial-Model Subset (Discussion Section VI-A)
+
+`results/1_commercial_model_subset/` contains the deterministic 40-task subset, all 40 final evaluation cells with their inference, evaluation, and metric files, the aggregate summary, and the per-turn accuracy figure.
+
+### 2. Impact of the Number of Turns (Discussion Section VI-B)
+
+`results/2_impact_of_turns/` contains the per-depth completion-rate summaries and the CR@$k$ figure.
+
+### 3. Impact of Intermediate Outcomes (Discussion Section VI-C)
+
+`results/3_intermediate_outcomes/` contains the per-subset and per-strategy summaries of how intermediate-turn performance relates to the final solution, the full trajectory-level outcomes, and the figure.
+
+### 4. Manual Analysis of Source Tasks (Discussion Section VI-D)
+
+`results/4_manual_review/` contains the questionnaire, three anonymized returns for 920 task turns, and the final majority and unanimous-agreement summary.
+
+### 5. Failure Analysis (Discussion Section VI-E)
+
+`results/5_failure_analysis/taxonomy/` contains the failure-attribution classification: the classification prompt, the final category proportions over the analysis population, and the paper-category mapping. The reported category proportions are computed from the primary category of each of the 9,779 model outputs; the secondary category is not mixed into the main distribution. `results/5_failure_analysis/failure_attribution/` contains the questionnaire, three anonymized returns for 180 outputs, and the final majority-accept and unanimous-agreement summary used to validate the attribution. The category-distribution figure is under `results/5_failure_analysis/figure/`, and the case-study figure is under `results/5_failure_analysis/case_study/`.
+
+### 6. LLM-Based Evaluation (Discussion Section VI-F)
+
+`results/6_judge_evaluation/judge/` contains the final cell, subset, and Judge-model metric tables. The Judge used GPT-5.6-Luna with temperature 0. The aggregate covers 63,102 matched turns from the 15,033 retained trajectories. `results/6_judge_evaluation/judge_reliability/` contains the questionnaire, three anonymized returns for 317 records, and the final human-human and Judge-human agreement statistics.
+
+### 7. User Study (Discussion Section VI-G)
+
+`results/7_user_study/` contains 80 sampled tasks, three anonymized rating files, the English questionnaire, and the final ordinal-agreement statistics.
+
+The anonymized rating records are released for verification of the reported aggregation only. They do not identify individual participants.
+
+## Release Boundary
+
+This package contains no manuscript or response-letter source files. It excludes provider diagnostics, API-error and retry logs, staging snapshots, local test and interpreter caches, and unpublished intermediate scripts. Raw provider requests and replies behind the released aggregate results remain outside this public release.
 
 ## 🙏 Acknowledgement
 

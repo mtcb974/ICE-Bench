@@ -1,0 +1,16 @@
+analysis,setting,subset,all_earlier_passed_n,all_earlier_passed_final_pass_count,all_earlier_passed_final_pass_rate,at_least_one_earlier_non_pass_n,at_least_one_earlier_non_pass_final_pass_count,at_least_one_earlier_non_pass_final_pass_rate,final_pass_rate_gap_percentage_points
+rq2_representatives,Full History,python_function,142,98,0.6901408450704225,426,178,0.41784037558685444,27.230046948356808
+rq2_representatives,Full History,python_repository,8,7,0.875,347,119,0.34293948126801155,53.206051873198845
+rq2_representatives,Full History,java_function,189,136,0.7195767195767195,499,209,0.4188376753507014,30.073904422601817
+rq2_representatives,Full History,java_repository,36,19,0.5277777777777778,124,6,0.04838709677419355,47.939068100358426
+rq2_representatives,Full History,overall,375,260,0.6933333333333334,1396,512,0.3667621776504298,32.65711556829036
+rq2_representatives,Code Edit,python_function,156,112,0.717948717948718,412,153,0.3713592233009709,34.65894946477471
+rq2_representatives,Code Edit,python_repository,14,9,0.6428571428571429,342,95,0.2777777777777778,36.50793650793651
+rq2_representatives,Code Edit,java_function,196,136,0.6938775510204082,492,199,0.40447154471544716,28.9406006304961
+rq2_representatives,Code Edit,java_repository,43,30,0.6976744186046512,117,9,0.07692307692307693,62.07513416815742
+rq2_representatives,Code Edit,overall,409,287,0.7017114914425427,1363,456,0.334556126192223,36.71553652503197
+rq2_representatives,Cumulative Instruction,python_function,131,90,0.6870229007633588,437,192,0.43935926773455375,24.766363302880507
+rq2_representatives,Cumulative Instruction,python_repository,17,15,0.8823529411764706,339,131,0.3864306784660767,49.59222627103939
+rq2_representatives,Cumulative Instruction,java_function,178,124,0.6966292134831461,510,220,0.43137254901960786,26.525666446353824
+rq2_representatives,Cumulative Instruction,java_repository,21,3,0.14285714285714285,139,10,0.07194244604316546,7.091469681397738
+rq2_representatives,Cumulative Instruction,overall,347,232,0.6685878962536023,1425,553,0.3880701754385965,28.051772081500577

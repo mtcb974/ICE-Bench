@@ -1,0 +1,22 @@
+{
+ "study_id": "source_task_manual_review",
+ "study_version": "1.1",
+ "source_task_counts": {
+  "java_function": 172,
+  "java_repository": 40
+ },
+ "record_count": 920,
+ "same_record_order": true,
+ "metrics": {
+  "requirement_actionability": {
+   "majority_yes_records": 901,
+   "unanimous_agreement_records": 878,
+   "record_count": 920
+  },
+  "evaluation_reasonableness": {
+   "majority_yes_records": 844,
+   "unanimous_agreement_records": 885,
+   "record_count": 920
+  }
+ }
+}

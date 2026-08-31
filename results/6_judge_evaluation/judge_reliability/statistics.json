@@ -1,0 +1,1617 @@
+{
+ "study_id": "judge_reliability_study",
+ "study_version": "2.0",
+ "annotation_template_sha256": "a364c568e13ac012e42a316ec6b0bc4e1c2e0de4d7e939df72661e09ef60830e",
+ "annotator_ids": [
+  "1",
+  "2",
+  "3"
+ ],
+ "record_count": 317,
+ "human_human_reliability": {
+  "metric": "Krippendorff's alpha (nominal)",
+  "estimate": 0.798178
+ },
+ "judge_human_agreement": {
+  "metric": "Cohen's kappa",
+  "estimate": 0.865055,
+  "human_reference": "three-expert majority verdict"
+ },
+ "label_counts": {
+  "human_majority": {
+   "Yes": 202,
+   "No": 115
+  },
+  "judge": {
+   "Yes": 196,
+   "No": 121
+  }
+ },
+ "record_level_comparison": [
+  {
+   "record_id": "R001",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R002",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R003",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R004",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R005",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R006",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R007",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R008",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R009",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R010",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R011",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R012",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R013",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R014",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R015",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R016",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R017",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R018",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R019",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R020",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R021",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R022",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R023",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R024",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R025",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R026",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R027",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R028",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R029",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R030",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R031",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R032",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R033",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R034",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R035",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R036",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R037",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R038",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R039",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R040",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R041",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R042",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R043",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R044",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R045",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R046",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R047",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R048",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R049",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R050",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R051",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R052",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R053",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R054",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R055",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R056",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R057",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R058",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R059",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R060",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R061",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R062",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R063",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R064",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R065",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R066",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R067",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R068",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R069",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R070",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R071",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R072",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R073",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R074",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R075",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R076",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R077",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R078",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R079",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R080",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R081",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R082",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R083",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R084",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R085",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R086",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R087",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R088",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R089",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R090",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R091",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R092",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R093",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R094",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R095",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R096",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R097",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R098",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R099",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R100",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R101",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R102",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R103",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R104",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R105",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R106",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R107",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R108",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R109",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R110",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R111",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R112",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R113",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R114",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R115",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R116",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R117",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R118",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R119",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R120",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R121",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R122",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R123",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R124",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R125",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R126",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R127",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R128",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R129",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R130",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R131",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R132",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R133",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R134",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R135",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R136",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R137",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R138",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R139",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R140",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R141",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R142",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R143",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R144",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R145",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R146",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R147",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R148",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R149",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R150",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R151",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R152",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R153",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R154",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R155",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R156",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R157",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R158",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R159",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R160",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R161",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R162",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R163",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R164",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R165",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R166",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R167",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R168",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R169",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R170",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R171",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R172",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R173",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R174",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R175",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R176",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R177",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R178",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R179",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R180",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R181",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R182",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R183",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R184",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R185",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R186",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R187",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R188",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R189",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R190",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R191",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R192",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R193",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R194",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R195",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R196",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R197",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R198",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R199",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R200",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R201",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R202",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R203",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R204",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R205",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R206",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R207",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R208",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R209",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R210",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R211",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R212",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R213",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R214",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R215",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R216",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R217",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R218",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R219",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R220",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R221",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R222",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R223",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R224",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R225",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R226",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R227",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R228",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R229",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R230",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R231",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R232",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R233",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R234",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R235",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R236",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R237",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R238",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R239",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R240",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R241",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R242",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R243",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R244",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R245",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R246",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R247",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R248",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R249",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R250",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R251",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R252",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R253",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R254",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R255",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R256",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R257",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R258",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R259",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R260",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R261",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R262",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R263",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R264",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R265",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R266",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R267",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R268",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R269",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R270",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R271",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R272",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R273",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R274",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R275",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R276",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R277",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R278",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R279",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R280",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R281",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R282",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R283",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R284",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R285",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R286",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R287",
+   "human_majority_verdict": "No",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R288",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R289",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R290",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R291",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R292",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R293",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R294",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R295",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R296",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R297",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R298",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R299",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R300",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R301",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R302",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R303",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R304",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "Yes"
+  },
+  {
+   "record_id": "R305",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R306",
+   "human_majority_verdict": "Yes",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R307",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R308",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R309",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R310",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R311",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R312",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R313",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R314",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R315",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R316",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  },
+  {
+   "record_id": "R317",
+   "human_majority_verdict": "No",
+   "judge_verdict": "No"
+  }
+ ]
+}

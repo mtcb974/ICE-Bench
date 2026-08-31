@@ -1,0 +1,125 @@
+{
+ "llm": "openai/gpt-oss-20b",
+ "language": "java-repo",
+ "context_setting": "golden",
+ "prompt_setting": "edit",
+ "timestamp": "20250911201225",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 10,
+   "acc": 0.25,
+   "pass_mt_ids": [
+    1026,
+    1032,
+    1042,
+    1035,
+    1044,
+    1045,
+    1060,
+    1069,
+    1068,
+    1061
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 23,
+   "acc": 0.575,
+   "pass_mt_ids": [
+    1029,
+    1025,
+    1032,
+    1047,
+    1031,
+    1037,
+    1033,
+    1045,
+    1043,
+    1052,
+    1055,
+    1056,
+    1057,
+    1062,
+    1059,
+    1066,
+    1069,
+    1060,
+    1065,
+    1067,
+    1030,
+    1068,
+    1061
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 20,
+   "acc": 0.6061,
+   "pass_mt_ids": [
+    1040,
+    1026,
+    1032,
+    1043,
+    1052,
+    1055,
+    1051,
+    1036,
+    1057,
+    1064,
+    1069,
+    1062,
+    1059,
+    1030,
+    1054,
+    1060,
+    1067,
+    1065,
+    1063,
+    1061
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 11,
+   "acc": 0.7333,
+   "pass_mt_ids": [
+    1042,
+    1026,
+    1052,
+    1036,
+    1049,
+    1050,
+    1064,
+    1054,
+    1060,
+    1065,
+    1067
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 2,
+   "acc": 0.5,
+   "pass_mt_ids": [
+    1052,
+    1051
+   ]
+  }
+ },
+ "avg_acc": 0.5329,
+ "fully_completed": {
+  "correct_size": 5,
+  "acc": 0.125,
+  "fully_completed_mt_ids": [
+   1032,
+   1069,
+   1068,
+   1060,
+   1061
+  ]
+ },
+ "avg_total_token": 10030.35
+}

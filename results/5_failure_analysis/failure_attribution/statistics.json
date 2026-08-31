@@ -1,0 +1,10 @@
+{
+ "study_id": "failure_attribution_validation_study",
+ "study_version": "1.0",
+ "record_count": 180,
+ "same_record_order": true,
+ "metrics": {
+  "majority_accept_records": 180,
+  "unanimous_agreement_records": 178
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "llm": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "edit",
+ "timestamp": "20250911194554",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 19,
+   "acc": 0.475,
+   "pass_mt_ids": [
+    1029,
+    1030,
+    1040,
+    1024,
+    1025,
+    1026,
+    1035,
+    1033,
+    1045,
+    1042,
+    1049,
+    1044,
+    1055,
+    1061,
+    1060,
+    1050,
+    1062,
+    1067,
+    1069
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 16,
+   "acc": 0.4,
+   "pass_mt_ids": [
+    1029,
+    1030,
+    1040,
+    1025,
+    1047,
+    1045,
+    1035,
+    1033,
+    1055,
+    1057,
+    1050,
+    1061,
+    1060,
+    1069,
+    1062,
+    1067
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 12,
+   "acc": 0.3636,
+   "pass_mt_ids": [
+    1029,
+    1030,
+    1040,
+    1032,
+    1055,
+    1050,
+    1057,
+    1069,
+    1061,
+    1060,
+    1067,
+    1062
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 3,
+   "acc": 0.2,
+   "pass_mt_ids": [
+    1050,
+    1060,
+    1067
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.2877,
+ "fully_completed": {
+  "correct_size": 13,
+  "acc": 0.325,
+  "fully_completed_mt_ids": [
+   1029,
+   1030,
+   1025,
+   1040,
+   1035,
+   1033,
+   1055,
+   1069,
+   1050,
+   1061,
+   1062,
+   1060,
+   1067
+  ]
+ },
+ "avg_total_token": 3870.53
+}

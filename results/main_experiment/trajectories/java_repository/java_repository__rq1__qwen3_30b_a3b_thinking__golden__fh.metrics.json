@@ -1,0 +1,117 @@
+{
+ "llm": "Qwen/Qwen3-30B-A3B",
+ "language": "java-repo",
+ "context_setting": "golden",
+ "prompt_setting": "fh",
+ "timestamp": "20250911185120",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 10,
+   "acc": 0.25,
+   "pass_mt_ids": [
+    1045,
+    1025,
+    1026,
+    1035,
+    1042,
+    1047,
+    1046,
+    1060,
+    1062,
+    1067
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 16,
+   "acc": 0.4,
+   "pass_mt_ids": [
+    1029,
+    1030,
+    1045,
+    1032,
+    1031,
+    1047,
+    1055,
+    1059,
+    1056,
+    1061,
+    1060,
+    1062,
+    1069,
+    1068,
+    1065,
+    1067
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 18,
+   "acc": 0.5455,
+   "pass_mt_ids": [
+    1030,
+    1040,
+    1042,
+    1052,
+    1032,
+    1026,
+    1047,
+    1051,
+    1031,
+    1055,
+    1054,
+    1057,
+    1059,
+    1061,
+    1060,
+    1062,
+    1066,
+    1067
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 12,
+   "acc": 0.8,
+   "pass_mt_ids": [
+    1042,
+    1052,
+    1049,
+    1050,
+    1051,
+    1054,
+    1044,
+    1036,
+    1060,
+    1064,
+    1065,
+    1067
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 3,
+   "acc": 0.75,
+   "pass_mt_ids": [
+    1052,
+    1051,
+    1054
+   ]
+  }
+ },
+ "avg_acc": 0.5491,
+ "fully_completed": {
+  "correct_size": 4,
+  "acc": 0.1,
+  "fully_completed_mt_ids": [
+   1047,
+   1062,
+   1060,
+   1067
+  ]
+ },
+ "avg_total_token": 15575.45
+}

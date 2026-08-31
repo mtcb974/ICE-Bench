@@ -1,0 +1,84 @@
+{
+ "llm": "claude-sonnet-4-5-20250929",
+ "language": "python",
+ "context_setting": "golden",
+ "prompt_setting": "fh",
+ "timestamp": "20260821115129",
+ "dataset_size": 10,
+ "answer_size": 10,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 10,
+   "correct_size": 4,
+   "acc": 0.4,
+   "pass_mt_ids": [
+    2,
+    4,
+    6,
+    8
+   ]
+  },
+  "turn_2": {
+   "sample_size": 10,
+   "correct_size": 9,
+   "acc": 0.9,
+   "pass_mt_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+   ]
+  },
+  "turn_3": {
+   "sample_size": 10,
+   "correct_size": 8,
+   "acc": 0.8,
+   "pass_mt_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ]
+  },
+  "turn_4": {
+   "sample_size": 6,
+   "correct_size": 4,
+   "acc": 0.6667,
+   "pass_mt_ids": [
+    1,
+    3,
+    4,
+    8
+   ]
+  },
+  "turn_5": {
+   "sample_size": 2,
+   "correct_size": 2,
+   "acc": 1.0,
+   "pass_mt_ids": [
+    1,
+    4
+   ]
+  }
+ },
+ "avg_acc": 0.7533,
+ "fully_completed": {
+  "correct_size": 3,
+  "acc": 0.3,
+  "fully_completed_mt_ids": [
+   2,
+   4,
+   6
+  ]
+ },
+ "avg_total_token": 2824.6
+}

@@ -1,0 +1,87 @@
+{
+ "llm": "gpt-5.6-luna",
+ "language": "java",
+ "context_setting": "base",
+ "prompt_setting": "ci",
+ "timestamp": "20260821053648",
+ "dataset_size": 10,
+ "answer_size": 10,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 10,
+   "correct_size": 9,
+   "acc": 0.9,
+   "pass_mt_ids": [
+    4,
+    3,
+    1,
+    5,
+    2,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  "turn_2": {
+   "sample_size": 10,
+   "correct_size": 6,
+   "acc": 0.6,
+   "pass_mt_ids": [
+    4,
+    1,
+    5,
+    2,
+    9,
+    10
+   ]
+  },
+  "turn_3": {
+   "sample_size": 10,
+   "correct_size": 6,
+   "acc": 0.6,
+   "pass_mt_ids": [
+    3,
+    1,
+    5,
+    2,
+    6,
+    10
+   ]
+  },
+  "turn_4": {
+   "sample_size": 10,
+   "correct_size": 5,
+   "acc": 0.5,
+   "pass_mt_ids": [
+    3,
+    5,
+    2,
+    6,
+    10
+   ]
+  },
+  "turn_5": {
+   "sample_size": 9,
+   "correct_size": 6,
+   "acc": 0.6667,
+   "pass_mt_ids": [
+    3,
+    5,
+    6,
+    8,
+    9,
+    10
+   ]
+  }
+ },
+ "avg_acc": 0.6533,
+ "fully_completed": {
+  "correct_size": 1,
+  "acc": 0.1,
+  "fully_completed_mt_ids": [
+   5
+  ]
+ },
+ "avg_total_token": 5541.0
+}

@@ -1,0 +1,115 @@
+{
+ "llm": "deepseek-v3.1-think-250821",
+ "language": "java-repo",
+ "context_setting": "golden",
+ "prompt_setting": "fh",
+ "timestamp": "20250911112941",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 17,
+   "acc": 0.425,
+   "pass_mt_ids": [
+    1029,
+    1024,
+    1025,
+    1035,
+    1042,
+    1040,
+    1050,
+    1055,
+    1044,
+    1059,
+    1060,
+    1062,
+    1061,
+    1068,
+    1069,
+    1063,
+    1067
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 15,
+   "acc": 0.375,
+   "pass_mt_ids": [
+    1029,
+    1030,
+    1032,
+    1047,
+    1033,
+    1040,
+    1052,
+    1055,
+    1057,
+    1059,
+    1060,
+    1056,
+    1061,
+    1069,
+    1065
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 15,
+   "acc": 0.4545,
+   "pass_mt_ids": [
+    1030,
+    1042,
+    1032,
+    1047,
+    1040,
+    1052,
+    1055,
+    1043,
+    1057,
+    1062,
+    1069,
+    1066,
+    1061,
+    1065,
+    1067
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 7,
+   "acc": 0.4667,
+   "pass_mt_ids": [
+    1042,
+    1049,
+    1050,
+    1054,
+    1064,
+    1065,
+    1063
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 3,
+   "acc": 0.75,
+   "pass_mt_ids": [
+    1052,
+    1054,
+    1051
+   ]
+  }
+ },
+ "avg_acc": 0.4942,
+ "fully_completed": {
+  "correct_size": 4,
+  "acc": 0.1,
+  "fully_completed_mt_ids": [
+   1040,
+   1055,
+   1069,
+   1061
+  ]
+ },
+ "avg_total_token": 10504.62
+}

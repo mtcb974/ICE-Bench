@@ -1,0 +1,87 @@
+{
+ "llm": "openai/gpt-oss-20b",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "fh",
+ "timestamp": "20250911191928",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 13,
+   "acc": 0.325,
+   "pass_mt_ids": [
+    1032,
+    1026,
+    1045,
+    1031,
+    1035,
+    1044,
+    1059,
+    1060,
+    1061,
+    1050,
+    1069,
+    1062,
+    1068
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 9,
+   "acc": 0.225,
+   "pass_mt_ids": [
+    1030,
+    1045,
+    1032,
+    1047,
+    1069,
+    1059,
+    1060,
+    1061,
+    1062
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 6,
+   "acc": 0.1818,
+   "pass_mt_ids": [
+    1030,
+    1032,
+    1059,
+    1060,
+    1061,
+    1062
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 1,
+   "acc": 0.0667,
+   "pass_mt_ids": [
+    1060
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.1597,
+ "fully_completed": {
+  "correct_size": 5,
+  "acc": 0.125,
+  "fully_completed_mt_ids": [
+   1032,
+   1059,
+   1061,
+   1062,
+   1060
+  ]
+ },
+ "avg_total_token": 10349.1
+}

@@ -1,0 +1,54 @@
+{
+ "llm": "gpt-5.6-luna",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "fh",
+ "timestamp": "20260821051829",
+ "dataset_size": 10,
+ "answer_size": 10,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 10,
+   "correct_size": 1,
+   "acc": 0.1,
+   "pass_mt_ids": [
+    10
+   ]
+  },
+  "turn_2": {
+   "sample_size": 10,
+   "correct_size": 1,
+   "acc": 0.1,
+   "pass_mt_ids": [
+    5
+   ]
+  },
+  "turn_3": {
+   "sample_size": 8,
+   "correct_size": 1,
+   "acc": 0.125,
+   "pass_mt_ids": [
+    5
+   ]
+  },
+  "turn_4": {
+   "sample_size": 2,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  },
+  "turn_5": {
+   "sample_size": 1,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.065,
+ "fully_completed": {
+  "correct_size": 0,
+  "acc": 0.0,
+  "fully_completed_mt_ids": []
+ },
+ "avg_total_token": 5892.9
+}

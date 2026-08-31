@@ -1,0 +1,52 @@
+{
+ "base_model_output_items": 9779,
+ "merged_primary_counts": {
+  "Code not completed": 815,
+  "Edge case not handled": 706,
+  "Existing function, variable, or API used incorrectly": 1488,
+  "Function or variable not defined": 1580,
+  "Inefficiency, unnecessary statements": 58,
+  "Logic error": 3090,
+  "Missing dependency declarations": 56,
+  "No error messages for unexpected input cases": 65,
+  "Test mismatch with requirement": 1921
+ },
+ "paper_category_map": {
+  "Code not completed": {
+   "definition": "The generated code leaves required behavior unfinished or only partially implemented.",
+   "paper_category": "Incomplete implementation"
+  },
+  "Edge case not handled": {
+   "definition": "The generated code handles the main behavior but fails a boundary or special case covered by the current-round tests.",
+   "paper_category": "Unhandled edge case"
+  },
+  "Existing function, variable, or API used incorrectly": {
+   "definition": "The generated code uses an existing function, variable, or API with the wrong call pattern, semantics, or object.",
+   "paper_category": "Incorrect API or symbol usage"
+  },
+  "Function or variable not defined": {
+   "definition": "The generated code refers to a function, variable, class, method, or field that is not available in the tested program.",
+   "paper_category": "Undefined identifier"
+  },
+  "Inefficiency, unnecessary statements": {
+   "definition": "The generated code contains unnecessary or inefficient statements that cause failure under the tested behavior.",
+   "paper_category": "Inefficient or redundant implementation"
+  },
+  "Logic error": {
+   "definition": "The generated code is structurally present but computes, transforms, branches, or updates state incorrectly.",
+   "paper_category": "Functional logic error"
+  },
+  "Missing dependency declarations": {
+   "definition": "The generated code relies on a dependency that is not declared or available in the target environment.",
+   "paper_category": "Missing dependency declaration"
+  },
+  "No error messages for unexpected input cases": {
+   "definition": "The generated code does not provide the required handling or diagnostic behavior for unexpected input cases.",
+   "paper_category": "Missing unexpected-input handling"
+  },
+  "Test mismatch with requirement": {
+   "definition": "The most plausible failure cause is a gap between the stated requirement and what the current-round test enforces.",
+   "paper_category": "Test-requirement mismatch"
+  }
+ }
+}

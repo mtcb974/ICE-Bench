@@ -1,0 +1,80 @@
+{
+ "llm": "deepseek-v3.1-think-250821",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "ci",
+ "timestamp": "20250911112102",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 15,
+   "acc": 0.375,
+   "pass_mt_ids": [
+    1029,
+    1025,
+    1024,
+    1035,
+    1045,
+    1042,
+    1040,
+    1055,
+    1044,
+    1050,
+    1059,
+    1062,
+    1060,
+    1069,
+    1067
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 5,
+   "acc": 0.125,
+   "pass_mt_ids": [
+    1030,
+    1029,
+    1061,
+    1069,
+    1067
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 5,
+   "acc": 0.1515,
+   "pass_mt_ids": [
+    1030,
+    1032,
+    1057,
+    1061,
+    1067
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 1,
+   "acc": 0.0667,
+   "pass_mt_ids": [
+    1067
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.1436,
+ "fully_completed": {
+  "correct_size": 1,
+  "acc": 0.025,
+  "fully_completed_mt_ids": [
+   1067
+  ]
+ },
+ "avg_total_token": 10670.42
+}

@@ -1,0 +1,6 @@
+analysis,setting,subset,all_earlier_passed_n,all_earlier_passed_final_pass_count,all_earlier_passed_final_pass_rate,at_least_one_earlier_non_pass_n,at_least_one_earlier_non_pass_final_pass_count,at_least_one_earlier_non_pass_final_pass_rate,final_pass_rate_gap_percentage_points
+rq1_fh_basic,Full History,python_function,373,256,0.6863270777479893,1189,490,0.4121110176619008,27.42160600860885
+rq1_fh_basic,Full History,python_repository,37,31,0.8378378378378378,941,312,0.33156216790648246,50.62756699313553
+rq1_fh_basic,Full History,java_function,461,328,0.7114967462039046,1431,540,0.37735849056603776,33.41382556378668
+rq1_fh_basic,Full History,java_repository,102,57,0.5588235294117647,338,24,0.07100591715976332,48.781761225200135
+rq1_fh_basic,Full History,overall,973,672,0.6906474820143885,3899,1366,0.3503462426263144,34.030123938807414

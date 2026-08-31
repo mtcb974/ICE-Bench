@@ -1,0 +1,2 @@
+group,expected_turns,eligible_turns,skipped_empty_code,api_error,unparsed,test_pass_judge_yes,test_pass_judge_no,test_nonpass_judge_yes,test_nonpass_judge_no,test_avg_acc_percent,judge_avg_acc_percent,delta_avg_acc_points,agreement_percent,cohen_kappa,expected_trajectories,eligible_trajectories,test_complete_trajectories,judge_complete_trajectories,test_cr_percent,judge_cr_percent,delta_cr_points
+GPT-5.6-Luna,63129,63102,27,0,0,20801,10919,12816,18566,50.26782035,53.27406421,3.00624386,62.3862952,0.24746196,15060,15033,2276,3831,15.14002528,25.48393534,10.34391006

@@ -1,0 +1,70 @@
+{
+ "llm": "claude-sonnet-4-5-20250929",
+ "language": "java-repo",
+ "context_setting": "golden",
+ "prompt_setting": "edit",
+ "timestamp": "20260821120109",
+ "dataset_size": 10,
+ "answer_size": 10,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 10,
+   "correct_size": 3,
+   "acc": 0.3,
+   "pass_mt_ids": [
+    5,
+    10,
+    1
+   ]
+  },
+  "turn_2": {
+   "sample_size": 10,
+   "correct_size": 4,
+   "acc": 0.4,
+   "pass_mt_ids": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  "turn_3": {
+   "sample_size": 8,
+   "correct_size": 4,
+   "acc": 0.5,
+   "pass_mt_ids": [
+    5,
+    6,
+    3,
+    8
+   ]
+  },
+  "turn_4": {
+   "sample_size": 2,
+   "correct_size": 2,
+   "acc": 1.0,
+   "pass_mt_ids": [
+    6,
+    3
+   ]
+  },
+  "turn_5": {
+   "sample_size": 1,
+   "correct_size": 1,
+   "acc": 1.0,
+   "pass_mt_ids": [
+    6
+   ]
+  }
+ },
+ "avg_acc": 0.64,
+ "fully_completed": {
+  "correct_size": 2,
+  "acc": 0.2,
+  "fully_completed_mt_ids": [
+   5,
+   1
+  ]
+ },
+ "avg_total_token": 2367.9
+}

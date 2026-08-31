@@ -1,0 +1,94 @@
+{
+ "llm": "gpt-5-mini",
+ "language": "java-repo",
+ "context_setting": "golden",
+ "prompt_setting": "fh",
+ "timestamp": "20250911182408",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 12,
+   "acc": 0.3,
+   "pass_mt_ids": [
+    1029,
+    1025,
+    1024,
+    1032,
+    1031,
+    1035,
+    1045,
+    1044,
+    1055,
+    1049,
+    1061,
+    1067
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 9,
+   "acc": 0.225,
+   "pass_mt_ids": [
+    1030,
+    1029,
+    1032,
+    1031,
+    1055,
+    1056,
+    1069,
+    1065,
+    1061
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 11,
+   "acc": 0.3333,
+   "pass_mt_ids": [
+    1030,
+    1032,
+    1044,
+    1055,
+    1054,
+    1069,
+    1063,
+    1064,
+    1067,
+    1065,
+    1061
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 4,
+   "acc": 0.2667,
+   "pass_mt_ids": [
+    1044,
+    1054,
+    1064,
+    1065
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 1,
+   "acc": 0.25,
+   "pass_mt_ids": [
+    1054
+   ]
+  }
+ },
+ "avg_acc": 0.275,
+ "fully_completed": {
+  "correct_size": 3,
+  "acc": 0.075,
+  "fully_completed_mt_ids": [
+   1032,
+   1055,
+   1061
+  ]
+ },
+ "avg_total_token": 9896.02
+}

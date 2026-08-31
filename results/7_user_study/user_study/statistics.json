@@ -1,0 +1,617 @@
+{
+  "sample_version": "1.2",
+  "annotation_template_sha256": "b711d46c31ef7fef04f6b8f6c793a0720cdf9fdff3f07b25d63cd6c5e9d36518",
+  "annotators": [
+    "1",
+    "2",
+    "3"
+  ],
+  "coverage": {
+    "expected_tasks": 80,
+    "expected_turns": 318,
+    "annotator_count": 3,
+    "expected_task_annotation_packets": 240,
+    "task_packets_reviewed": 240,
+    "fully_scored_task_packets": 240,
+    "expected_turn_annotation_packets": 954,
+    "turn_packets_reviewed": 954,
+    "fully_scored_turn_packets": 954
+  },
+  "dimensions": {
+    "testability": {
+      "level": "task",
+      "unit_count": 80,
+      "expected_ratings": 240,
+      "overall": {
+        "n": 240,
+        "missing_count": 0,
+        "mean": 3.770833,
+        "median": 4.0,
+        "standard_deviation": 0.803746,
+        "distribution": {
+          "1": 0,
+          "2": 14,
+          "3": 69,
+          "4": 115,
+          "5": 42
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 3.666667,
+          "median": 4.0,
+          "standard_deviation": 0.816497,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 18,
+            "4": 29,
+            "5": 8
+          }
+        },
+        "java_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 3.9,
+          "median": 4.0,
+          "standard_deviation": 0.933374,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 14,
+            "4": 23,
+            "5": 18
+          }
+        },
+        "python_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 3.45,
+          "median": 3.0,
+          "standard_deviation": 0.699273,
+          "distribution": {
+            "1": 0,
+            "2": 4,
+            "3": 28,
+            "4": 25,
+            "5": 3
+          }
+        },
+        "java_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.066667,
+          "median": 4.0,
+          "standard_deviation": 0.606928,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 9,
+            "4": 38,
+            "5": 13
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.713784,
+        "rated_units_with_at_least_two_raters": 80,
+        "total_units": 80,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "completeness": {
+      "level": "task",
+      "unit_count": 80,
+      "expected_ratings": 240,
+      "overall": {
+        "n": 240,
+        "missing_count": 0,
+        "mean": 4.308333,
+        "median": 5.0,
+        "standard_deviation": 0.889698,
+        "distribution": {
+          "1": 0,
+          "2": 10,
+          "3": 39,
+          "4": 58,
+          "5": 133
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.316667,
+          "median": 5.0,
+          "standard_deviation": 0.947641,
+          "distribution": {
+            "1": 0,
+            "2": 4,
+            "3": 8,
+            "4": 13,
+            "5": 35
+          }
+        },
+        "java_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 3.916667,
+          "median": 4.0,
+          "standard_deviation": 0.925929,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 13,
+            "4": 24,
+            "5": 18
+          }
+        },
+        "python_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.083333,
+          "median": 4.0,
+          "standard_deviation": 0.888565,
+          "distribution": {
+            "1": 0,
+            "2": 1,
+            "3": 18,
+            "4": 16,
+            "5": 25
+          }
+        },
+        "java_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.916667,
+          "median": 5.0,
+          "standard_deviation": 0.278718,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 5,
+            "5": 55
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.67946,
+        "rated_units_with_at_least_two_raters": 80,
+        "total_units": 80,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "distinctiveness": {
+      "level": "task",
+      "unit_count": 80,
+      "expected_ratings": 240,
+      "overall": {
+        "n": 240,
+        "missing_count": 0,
+        "mean": 4.4875,
+        "median": 5.0,
+        "standard_deviation": 0.627016,
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 89,
+          "5": 134
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.366667,
+          "median": 4.0,
+          "standard_deviation": 0.662984,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 6,
+            "4": 26,
+            "5": 28
+          }
+        },
+        "java_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.433333,
+          "median": 4.0,
+          "standard_deviation": 0.5928,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 3,
+            "4": 28,
+            "5": 29
+          }
+        },
+        "python_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.6,
+          "median": 5.0,
+          "standard_deviation": 0.643086,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 5,
+            "4": 14,
+            "5": 41
+          }
+        },
+        "java_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.55,
+          "median": 5.0,
+          "standard_deviation": 0.594466,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 3,
+            "4": 21,
+            "5": 36
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.811566,
+        "rated_units_with_at_least_two_raters": 80,
+        "total_units": 80,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "scenario_authenticity": {
+      "level": "task",
+      "unit_count": 80,
+      "expected_ratings": 240,
+      "overall": {
+        "n": 240,
+        "missing_count": 0,
+        "mean": 4.4625,
+        "median": 5.0,
+        "standard_deviation": 0.69566,
+        "distribution": {
+          "1": 0,
+          "2": 3,
+          "3": 19,
+          "4": 82,
+          "5": 136
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.5,
+          "median": 5.0,
+          "standard_deviation": 0.701089,
+          "distribution": {
+            "1": 0,
+            "2": 1,
+            "3": 4,
+            "4": 19,
+            "5": 36
+          }
+        },
+        "java_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.416667,
+          "median": 5.0,
+          "standard_deviation": 0.808675,
+          "distribution": {
+            "1": 0,
+            "2": 2,
+            "3": 6,
+            "4": 17,
+            "5": 35
+          }
+        },
+        "python_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.6,
+          "median": 5.0,
+          "standard_deviation": 0.588016,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 3,
+            "4": 18,
+            "5": 39
+          }
+        },
+        "java_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.333333,
+          "median": 4.0,
+          "standard_deviation": 0.65527,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 6,
+            "4": 28,
+            "5": 26
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.682431,
+        "rated_units_with_at_least_two_raters": 80,
+        "total_units": 80,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "logical_coherence": {
+      "level": "task",
+      "unit_count": 80,
+      "expected_ratings": 240,
+      "overall": {
+        "n": 240,
+        "missing_count": 0,
+        "mean": 4.429167,
+        "median": 5.0,
+        "standard_deviation": 0.745407,
+        "distribution": {
+          "1": 0,
+          "2": 6,
+          "3": 19,
+          "4": 81,
+          "5": 134
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.366667,
+          "median": 5.0,
+          "standard_deviation": 0.822701,
+          "distribution": {
+            "1": 0,
+            "2": 1,
+            "3": 10,
+            "4": 15,
+            "5": 34
+          }
+        },
+        "java_function": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.2,
+          "median": 4.0,
+          "standard_deviation": 0.953139,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 7,
+            "4": 19,
+            "5": 29
+          }
+        },
+        "python_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.55,
+          "median": 5.0,
+          "standard_deviation": 0.534409,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 25,
+            "5": 34
+          }
+        },
+        "java_repository": {
+          "n": 60,
+          "missing_count": 0,
+          "mean": 4.6,
+          "median": 5.0,
+          "standard_deviation": 0.527225,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 22,
+            "5": 37
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.696647,
+        "rated_units_with_at_least_two_raters": 80,
+        "total_units": 80,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "code_to_instruction_alignment": {
+      "level": "turn",
+      "unit_count": 318,
+      "expected_ratings": 954,
+      "overall": {
+        "n": 954,
+        "missing_count": 0,
+        "mean": 4.286164,
+        "median": 5.0,
+        "standard_deviation": 0.985135,
+        "distribution": {
+          "1": 9,
+          "2": 60,
+          "3": 131,
+          "4": 203,
+          "5": 551
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 237,
+          "missing_count": 0,
+          "mean": 4.603376,
+          "median": 5.0,
+          "standard_deviation": 0.653275,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 22,
+            "4": 50,
+            "5": 165
+          }
+        },
+        "java_function": {
+          "n": 279,
+          "missing_count": 0,
+          "mean": 4.397849,
+          "median": 5.0,
+          "standard_deviation": 0.788493,
+          "distribution": {
+            "1": 0,
+            "2": 2,
+            "3": 47,
+            "4": 68,
+            "5": 162
+          }
+        },
+        "python_repository": {
+          "n": 249,
+          "missing_count": 0,
+          "mean": 3.726908,
+          "median": 4.0,
+          "standard_deviation": 1.328092,
+          "distribution": {
+            "1": 9,
+            "2": 56,
+            "3": 40,
+            "4": 33,
+            "5": 111
+          }
+        },
+        "java_repository": {
+          "n": 189,
+          "missing_count": 0,
+          "mean": 4.460317,
+          "median": 5.0,
+          "standard_deviation": 0.740013,
+          "distribution": {
+            "1": 0,
+            "2": 2,
+            "3": 22,
+            "4": 52,
+            "5": 113
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.684696,
+        "rated_units_with_at_least_two_raters": 318,
+        "total_units": 318,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    },
+    "test_to_instruction_alignment": {
+      "level": "turn",
+      "unit_count": 318,
+      "expected_ratings": 954,
+      "overall": {
+        "n": 954,
+        "missing_count": 0,
+        "mean": 3.793501,
+        "median": 4.0,
+        "standard_deviation": 1.140829,
+        "distribution": {
+          "1": 38,
+          "2": 99,
+          "3": 214,
+          "4": 274,
+          "5": 329
+        }
+      },
+      "by_subset": {
+        "python_function": {
+          "n": 237,
+          "missing_count": 0,
+          "mean": 4.316456,
+          "median": 4.0,
+          "standard_deviation": 0.757073,
+          "distribution": {
+            "1": 0,
+            "2": 1,
+            "3": 39,
+            "4": 81,
+            "5": 116
+          }
+        },
+        "java_function": {
+          "n": 279,
+          "missing_count": 0,
+          "mean": 4.315412,
+          "median": 4.0,
+          "standard_deviation": 0.749685,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 48,
+            "4": 95,
+            "5": 136
+          }
+        },
+        "python_repository": {
+          "n": 249,
+          "missing_count": 0,
+          "mean": 3.46988,
+          "median": 3.0,
+          "standard_deviation": 1.110841,
+          "distribution": {
+            "1": 7,
+            "2": 46,
+            "3": 74,
+            "4": 67,
+            "5": 55
+          }
+        },
+        "java_repository": {
+          "n": 189,
+          "missing_count": 0,
+          "mean": 2.793651,
+          "median": 3.0,
+          "standard_deviation": 1.235452,
+          "distribution": {
+            "1": 31,
+            "2": 52,
+            "3": 53,
+            "4": 31,
+            "5": 22
+          }
+        }
+      },
+      "agreement": {
+        "metric": "Krippendorff's alpha (ordinal)",
+        "estimate": 0.67512,
+        "rated_units_with_at_least_two_raters": 318,
+        "total_units": 318,
+        "rater_count": 3,
+        "missing_ratings": 0
+      }
+    }
+  }
+}

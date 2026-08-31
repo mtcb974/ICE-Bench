@@ -1,0 +1,104 @@
+{
+ "llm": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "fh",
+ "timestamp": "20250911183024",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 20,
+   "acc": 0.5,
+   "pass_mt_ids": [
+    1030,
+    1029,
+    1045,
+    1040,
+    1024,
+    1025,
+    1026,
+    1035,
+    1033,
+    1046,
+    1055,
+    1049,
+    1044,
+    1059,
+    1061,
+    1060,
+    1062,
+    1067,
+    1069,
+    1050
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 12,
+   "acc": 0.3,
+   "pass_mt_ids": [
+    1030,
+    1029,
+    1045,
+    1047,
+    1055,
+    1033,
+    1057,
+    1059,
+    1061,
+    1060,
+    1069,
+    1062
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 10,
+   "acc": 0.303,
+   "pass_mt_ids": [
+    1030,
+    1029,
+    1032,
+    1047,
+    1055,
+    1057,
+    1059,
+    1061,
+    1060,
+    1062
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 1,
+   "acc": 0.0667,
+   "pass_mt_ids": [
+    1060
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.2339,
+ "fully_completed": {
+  "correct_size": 8,
+  "acc": 0.2,
+  "fully_completed_mt_ids": [
+   1030,
+   1029,
+   1033,
+   1055,
+   1059,
+   1061,
+   1062,
+   1060
+  ]
+ },
+ "avg_total_token": 5006.02
+}

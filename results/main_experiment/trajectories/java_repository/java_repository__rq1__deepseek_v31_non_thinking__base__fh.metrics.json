@@ -1,0 +1,96 @@
+{
+ "llm": "deepseek-v3.1-250821",
+ "language": "java-repo",
+ "context_setting": "base",
+ "prompt_setting": "fh",
+ "timestamp": "20250911180653",
+ "dataset_size": 40,
+ "answer_size": 40,
+ "turn_acc": {
+  "turn_1": {
+   "sample_size": 40,
+   "correct_size": 16,
+   "acc": 0.4,
+   "pass_mt_ids": [
+    1029,
+    1045,
+    1026,
+    1025,
+    1024,
+    1035,
+    1033,
+    1046,
+    1055,
+    1059,
+    1061,
+    1062,
+    1060,
+    1068,
+    1069,
+    1067
+   ]
+  },
+  "turn_2": {
+   "sample_size": 40,
+   "correct_size": 11,
+   "acc": 0.275,
+   "pass_mt_ids": [
+    1040,
+    1030,
+    1029,
+    1045,
+    1047,
+    1055,
+    1059,
+    1069,
+    1061,
+    1062,
+    1067
+   ]
+  },
+  "turn_3": {
+   "sample_size": 33,
+   "correct_size": 9,
+   "acc": 0.2727,
+   "pass_mt_ids": [
+    1040,
+    1029,
+    1030,
+    1032,
+    1055,
+    1059,
+    1061,
+    1062,
+    1067
+   ]
+  },
+  "turn_4": {
+   "sample_size": 15,
+   "correct_size": 1,
+   "acc": 0.0667,
+   "pass_mt_ids": [
+    1067
+   ]
+  },
+  "turn_5": {
+   "sample_size": 4,
+   "correct_size": 0,
+   "acc": 0.0,
+   "pass_mt_ids": []
+  }
+ },
+ "avg_acc": 0.2029,
+ "fully_completed": {
+  "correct_size": 6,
+  "acc": 0.15,
+  "fully_completed_mt_ids": [
+   1029,
+   1055,
+   1059,
+   1061,
+   1062,
+   1067
+  ]
+ },
+ "avg_total_token": 5096.0
+}
